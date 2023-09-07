@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="sicrediApiTest.GetAuthTest">
+        <methods>
+          <include name="getAuth403"/>
+          <include name="baseTest"/>
+          <include name="setup"/>
+          <include name="startingTest"/>
+          <include name="getAuth404"/>
+          <include name="getAuth"/>
+          <include name="getAuth500"/>
+          <include name="finishingTest"/>
+        </methods>
+      </class> <!-- sicrediApiTest.GetAuthTest -->
+      <class name="sicrediApiTest.GetUsersTest">
+        <methods>
+          <include name="baseTest"/>
+          <include name="startingTest"/>
+          <include name="finishingTest"/>
+          <include name="getUsers"/>
+          <include name="getUsers404"/>
+        </methods>
+      </class> <!-- sicrediApiTest.GetUsersTest -->
+      <class name="sicrediApiTest.GetProductsTest">
+        <methods>
+          <include name="baseTest"/>
+          <include name="getProducts"/>
+          <include name="getProducts404"/>
+          <include name="startingTest"/>
+          <include name="finishingTest"/>
+        </methods>
+      </class> <!-- sicrediApiTest.GetProductsTest -->
+      <class name="sicrediApiTest.PostAuthTest">
+        <methods>
+          <include name="baseTest"/>
+          <include name="startingTest"/>
+          <include name="PostAuthAPITest"/>
+          <include name="postAuthAPITest400Body"/>
+          <include name="postAuthAPITest400Headers"/>
+          <include name="postAuthAPITest403"/>
+          <include name="finishingTest"/>
+        </methods>
+      </class> <!-- sicrediApiTest.PostAuthTest -->
+      <class name="sicrediApiTest.GetAPITest">
+        <methods>
+          <include name="getTest400"/>
+          <include name="getTest"/>
+          <include name="baseTest"/>
+          <include name="finishingTest"/>
+          <include name="startingTest"/>
+        </methods>
+      </class> <!-- sicrediApiTest.GetAPITest -->
+      <class name="sicrediApiTest.GetProductsTestById">
+        <methods>
+          <include name="getProductsById"/>
+          <include name="finishingTest"/>
+          <include name="baseTest"/>
+          <include name="getProductsById404"/>
+          <include name="startingTest"/>
+        </methods>
+      </class> <!-- sicrediApiTest.GetProductsTestById -->
+      <class name="sicrediApiTest.PostProductsTest">
+        <methods>
+          <include name="baseTest"/>
+          <include name="finishingTest"/>
+          <include name="startingTest"/>
+          <include name="postProductsAPITest400Body"/>
+          <include name="postProductsAPITest"/>
+          <include name="postProductsAPITest404"/>
+        </methods>
+      </class> <!-- sicrediApiTest.PostProductsTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [desafioTecnicoSicredi by packages]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="sicrediApiTest(failed)">
+    <classes>
+      <class name="sicrediApiTest.PostProductsTest">
+        <methods>
+          <include name="baseTest"/>
+          <include name="finishingTest"/>
+          <include name="startingTest"/>
+          <include name="validPostAPITest"/>
+        </methods>
+      </class> <!-- sicrediApiTest.PostProductsTest -->
+    </classes>
+  </test> <!-- sicrediApiTest(failed) -->
+</suite> <!-- Failed suite [desafioTecnicoSicredi by packages] -->
