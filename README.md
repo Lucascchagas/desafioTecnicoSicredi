@@ -1,6 +1,4 @@
-
 Desafio Técnico Sicredi
-
 
 Informações Mínimas do Projeto
 
@@ -12,13 +10,21 @@ Para IDE Eclipse, é necessário utilizar o plugin TestNG for Eclipse, do Eclips
 
 -Denv=dev
 
-ou 
+ou
 
 -Denv=qa
 
 ou
 
 -Denv=starting
+
+Acessando o relatório HTML
+
+Após a execução anterior, acesse:
+
+test-output/Report/test/ExtentReport.html -> selecione os properties do arquivo - acesse a pasta de localização (Show In System Explorer) -> abra o arquivo no navegador de preferência:
+
+Link para ExtentReport.html
 
 Pré-requisitos
 
@@ -30,44 +36,36 @@ Configuração
 
 Clone o repositório:
 
-git clone https://github.com/usuario/projeto.git
+git clone git@github.com:Lucascchagas/desafioTecnicoSicredi.git
 
-cd projeto
+cd desafioTecnicoSicredi
 
 Instale as dependências usando o Maven:
 
 mvn clean install
 
-
 Execução dos Testes
+
 Para executar os testes de integração contínua, utilize o seguinte comando (o projeto apenas está configurado - AS EXECUÇÕES, ATUALMENTE, SÃO EXCLUSIVAMENTE LOCAIS):
 
 mvn test
 
-
 Plano de Teste e Estratégia de Testes
 
-Nos pautamos pelo uso do TestNG e de um projeto padronizável, ou seja, as classes java BaseTest, APIPath e HeaderConfigs possuem, respectivamente, a url base e quaisquer endpoints e headers que possam existis nas requisições. 
+Nos pautamos pelo uso do TestNG e de um projeto padronizável, ou seja, as classes java BaseTest, APIPath e HeaderConfigs possuem, respectivamente, a url base e quaisquer endpoints e headers que possam existir nas requisições.
 
 A classe java APIVerification permite a validação do retorno da requisição: status code, tipo de response body e suas respectivas informações. Outrossim, fornecemos o tempo de execução dos testes (teste de desempenho), mediante o método responseTimeValidation.
 
 A classe java FileandEnv permite que os testes sejam executados em diferentes ambientes.
 
-As requisições GET e POST fornecidas foram agrupadas em classes java próprias, de modo que cada uma possui o cenário de sucesso (status code 200) e os cenários negativos possíveis (status code 400, 401, 403, 404...).
-
+As requisições (src/test/java/sicrediApiTest) GET e POST fornecidas foram agrupadas em classes java próprias, de modo que cada uma possui o cenário de sucesso (status code 200) e os cenários negativos possíveis (status code 400, 401, 403, 404...). Cada response body foi devidamente validado.
 
 Bugs
-
 [Bug #1 GET /auth/products]: [Eventual token incorreto, ao invés de resultar em status code 401, unauthorized, retorna status code 500, sob a mensagem "invalid token"]
-
 [Bug #2 POST /products/add]: [É preciso validar quais dados do request body são obrigatórios, visto que a retirada de um parâmetro não implica, necessariamente, em Bad Request (foi verificado que apenas o parâmetro "thumbnail" gera Bad Request - os demais retornam status code 200)]
-
 [Bug #3 POST /products/add]: [É preciso validar quais são os tipos aceitos por cada parâmetro do request body, visto que, ao indicar o parâmetro "price" como String, a requisição retornou com sucesso, embora o valor seja "gg"]
-
 [Bug #4 POST /products/add]: [Se o Header Conten-Type = application/json é retirado da request, o response body retorna somente com o id do produto, sem mais nenhuma informação (title, price, stock...). Entendo que devemos deixá-lo como header de uso obrigatório, sob risco de retornar Bad Request eventual requisição sem sua indicação]
-
 [Bug #5 GET /products]:  [Embora a listagem completa do response body da GET /products indique somente 30 id's, se filtrarmos um eventual id 31 na GET /products/31 ou um número superior, continuam a retornar informações no response body. Destarte, não estão retornando todos os id's na listagem completa]
-
 Melhorias
-
 [Melhoria #1 Content-Type]: [As requisições GET /auth/products e GET /products possuem o header Content-Type = application/json, contudo, não se trata de um parâmetro obrigatório, uma vez que, em sua ausência, a requisição continua a retornar com status code 200]
+[Melhoria #2 GET /products{id}]: [O response body retornado do filtro de produtos por id parece estar instável, uma vez que o step de validação quebra alternativamente, de modo que o retiramos do projeto para fins de esclarecimento]
