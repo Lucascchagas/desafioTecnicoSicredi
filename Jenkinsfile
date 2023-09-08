@@ -4,40 +4,61 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Checkout your code from GitLab repository
                 checkout scm
             }
         }
 
         stage('Build') {
             steps {
-                // Compile your Java code and run any necessary build steps
-                sh 'mvn clean install' // Adjust this command based on your build tool (e.g., Maven or Gradle)
+                // Compile your Java code
+                sh 'mvn clean install'
+
+                // Run static code analysis (e.g., with SonarQube)
+                sh 'mvn sonar:sonar'
+
+                // Generate documentation (e.g., with Javadoc)
+                sh 'mvn javadoc:javadoc'
             }
         }
 
         stage('Test') {
             steps {
-                // Run your TestNG tests
-                sh 'mvn test' // Adjust this command based on your testing framework and configuration
+                sh 'mvn test -Dtest=sicrediApiTest.*'
             }
         }
 
-        stage('Deploy') {
+        stage('Deploy to Staging') {
             steps {
-                // Deploy your application or artifacts to the desired environment
-                // This stage can be customized based on your deployment process
+                // Deploy to a staging environment (e.g., test server)
+                sh './deploy-to-staging.sh'
+            }
+        }
+
+        stage('Deploy to Production') {
+            when {
+                // Add a condition to decide when to deploy to production
+                expression { currentBuild.resultIsBetterOrEqualTo('SUCCESS') }
+            }
+            steps {
+                // Deploy to production only if tests pass successfully
+                sh './deploy-to-production.sh'
             }
         }
     }
 
     post {
         success {
-            // If the pipeline succeeds (tests pass), you can perform additional actions here
+            // Actions to be performed when the pipeline succeeds
+            // For example, notify the team or perform additional tasks
+            echo 'The pipeline was executed successfully!'
         }
 
         failure {
-            // If the pipeline fails (tests fail), you can perform additional actions here
-        }
-    }
-}
+            // Actions to be performed when the pipeline fails
+            // For example, notify the team or create bug-fixing tasks
+            echo 'The pipeline failed. Check the logs for details.'
+            
+          }
+   	   }
+	}
+           

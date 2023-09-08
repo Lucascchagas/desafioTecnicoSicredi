@@ -1,197 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-07T17:43:59 BRT" name="desafioTecnicoSicredi by packages" finished-at="2023-09-07T17:44:14 BRT" duration-ms="15268">
+  <suite started-at="2023-09-07T21:30:44 BRT" name="desafioTecnicoSicredi by packages" finished-at="2023-09-07T21:31:00 BRT" duration-ms="16519">
     <groups>
     </groups>
-    <test started-at="2023-09-07T17:43:59 BRT" name="sicrediApiTest" finished-at="2023-09-07T17:44:14 BRT" duration-ms="15268">
+    <test started-at="2023-09-07T21:30:44 BRT" name="sicrediApiTest" finished-at="2023-09-07T21:31:00 BRT" duration-ms="16519">
       <class name="sicrediApiTest.PostProductsTest">
-        <test-method is-config="true" signature="baseTest()[pri:0, instance:sicrediApiTest.PostProductsTest@741a8937]" started-at="2023-09-07T17:44:13 BRT" name="baseTest" finished-at="2023-09-07T17:44:13 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="baseTest()[pri:0, instance:sicrediApiTest.PostProductsTest@2f217633]" started-at="2023-09-07T21:30:58 BRT" name="baseTest" finished-at="2023-09-07T21:30:58 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseTest -->
-        <test-method signature="postProductsAPITest()[pri:0, instance:sicrediApiTest.PostProductsTest@741a8937]" started-at="2023-09-07T17:44:13 BRT" name="postProductsAPITest" finished-at="2023-09-07T17:44:13 BRT" duration-ms="529" status="PASS">
+        <test-method signature="postProductsAPITest()[pri:0, instance:sicrediApiTest.PostProductsTest@2f217633]" started-at="2023-09-07T21:30:58 BRT" name="postProductsAPITest" finished-at="2023-09-07T21:30:59 BRT" duration-ms="528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postProductsAPITest -->
-        <test-method is-config="true" signature="startingTest()[pri:0, instance:sicrediApiTest.PostProductsTest@741a8937]" started-at="2023-09-07T17:44:13 BRT" name="startingTest" finished-at="2023-09-07T17:44:13 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startingTest()[pri:0, instance:sicrediApiTest.PostProductsTest@2f217633]" started-at="2023-09-07T21:30:58 BRT" name="startingTest" finished-at="2023-09-07T21:30:58 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startingTest -->
-        <test-method signature="postProductsAPITest400Body()[pri:0, instance:sicrediApiTest.PostProductsTest@741a8937]" started-at="2023-09-07T17:44:13 BRT" name="postProductsAPITest400Body" finished-at="2023-09-07T17:44:14 BRT" duration-ms="528" status="PASS">
+        <test-method signature="postProductsAPITest400Body()[pri:0, instance:sicrediApiTest.PostProductsTest@2f217633]" started-at="2023-09-07T21:30:59 BRT" name="postProductsAPITest400Body" finished-at="2023-09-07T21:31:00 BRT" duration-ms="526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postProductsAPITest400Body -->
-        <test-method signature="postProductsAPITest404()[pri:0, instance:sicrediApiTest.PostProductsTest@741a8937]" started-at="2023-09-07T17:44:14 BRT" name="postProductsAPITest404" finished-at="2023-09-07T17:44:14 BRT" duration-ms="529" status="PASS">
+        <test-method signature="postProductsAPITest404()[pri:0, instance:sicrediApiTest.PostProductsTest@2f217633]" started-at="2023-09-07T21:31:00 BRT" name="postProductsAPITest404" finished-at="2023-09-07T21:31:00 BRT" duration-ms="529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postProductsAPITest404 -->
-        <test-method is-config="true" signature="finishingTest()[pri:0, instance:sicrediApiTest.PostProductsTest@741a8937]" started-at="2023-09-07T17:44:14 BRT" name="finishingTest" finished-at="2023-09-07T17:44:14 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="finishingTest()[pri:0, instance:sicrediApiTest.PostProductsTest@2f217633]" started-at="2023-09-07T21:31:00 BRT" name="finishingTest" finished-at="2023-09-07T21:31:00 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishingTest -->
       </class> <!-- sicrediApiTest.PostProductsTest -->
       <class name="sicrediApiTest.GetProductsTestById">
-        <test-method is-config="true" signature="baseTest()[pri:0, instance:sicrediApiTest.GetProductsTestById@5ba3f27a]" started-at="2023-09-07T17:44:08 BRT" name="baseTest" finished-at="2023-09-07T17:44:08 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="baseTest()[pri:0, instance:sicrediApiTest.GetProductsTestById@611889f4]" started-at="2023-09-07T21:30:52 BRT" name="baseTest" finished-at="2023-09-07T21:30:52 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseTest -->
-        <test-method is-config="true" signature="startingTest()[pri:0, instance:sicrediApiTest.GetProductsTestById@5ba3f27a]" started-at="2023-09-07T17:44:08 BRT" name="startingTest" finished-at="2023-09-07T17:44:08 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startingTest()[pri:0, instance:sicrediApiTest.GetProductsTestById@611889f4]" started-at="2023-09-07T21:30:52 BRT" name="startingTest" finished-at="2023-09-07T21:30:52 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startingTest -->
-        <test-method signature="getProductsById()[pri:0, instance:sicrediApiTest.GetProductsTestById@5ba3f27a]" started-at="2023-09-07T17:44:08 BRT" name="getProductsById" finished-at="2023-09-07T17:44:09 BRT" duration-ms="875" status="PASS">
+        <test-method signature="getProductsById()[pri:0, instance:sicrediApiTest.GetProductsTestById@611889f4]" started-at="2023-09-07T21:30:52 BRT" name="getProductsById" finished-at="2023-09-07T21:30:53 BRT" duration-ms="875" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProductsById -->
-        <test-method signature="getProductsById404()[pri:0, instance:sicrediApiTest.GetProductsTestById@5ba3f27a]" started-at="2023-09-07T17:44:09 BRT" name="getProductsById404" finished-at="2023-09-07T17:44:10 BRT" duration-ms="863" status="PASS">
+        <test-method signature="getProductsById404()[pri:0, instance:sicrediApiTest.GetProductsTestById@611889f4]" started-at="2023-09-07T21:30:53 BRT" name="getProductsById404" finished-at="2023-09-07T21:30:54 BRT" duration-ms="866" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProductsById404 -->
-        <test-method is-config="true" signature="finishingTest()[pri:0, instance:sicrediApiTest.GetProductsTestById@5ba3f27a]" started-at="2023-09-07T17:44:10 BRT" name="finishingTest" finished-at="2023-09-07T17:44:10 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="finishingTest()[pri:0, instance:sicrediApiTest.GetProductsTestById@611889f4]" started-at="2023-09-07T21:30:54 BRT" name="finishingTest" finished-at="2023-09-07T21:30:54 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishingTest -->
       </class> <!-- sicrediApiTest.GetProductsTestById -->
       <class name="sicrediApiTest.PostAuthTest">
-        <test-method is-config="true" signature="baseTest()[pri:0, instance:sicrediApiTest.PostAuthTest@74751b3]" started-at="2023-09-07T17:44:11 BRT" name="baseTest" finished-at="2023-09-07T17:44:11 BRT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseTest -->
-        <test-method is-config="true" signature="startingTest()[pri:0, instance:sicrediApiTest.PostAuthTest@74751b3]" started-at="2023-09-07T17:44:11 BRT" name="startingTest" finished-at="2023-09-07T17:44:11 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startingTest()[pri:0, instance:sicrediApiTest.PostAuthTest@48f278eb]" started-at="2023-09-07T21:30:55 BRT" name="startingTest" finished-at="2023-09-07T21:30:55 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startingTest -->
-        <test-method signature="PostAuthAPITest()[pri:0, instance:sicrediApiTest.PostAuthTest@74751b3]" started-at="2023-09-07T17:44:11 BRT" name="PostAuthAPITest" finished-at="2023-09-07T17:44:11 BRT" duration-ms="530" status="PASS">
+        <test-method is-config="true" signature="baseTest()[pri:0, instance:sicrediApiTest.PostAuthTest@48f278eb]" started-at="2023-09-07T21:30:55 BRT" name="baseTest" finished-at="2023-09-07T21:30:55 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest -->
+        <test-method signature="PostAuthAPITest()[pri:0, instance:sicrediApiTest.PostAuthTest@48f278eb]" started-at="2023-09-07T21:30:55 BRT" name="PostAuthAPITest" finished-at="2023-09-07T21:30:56 BRT" duration-ms="534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PostAuthAPITest -->
-        <test-method signature="postAuthAPITest400Body()[pri:0, instance:sicrediApiTest.PostAuthTest@74751b3]" started-at="2023-09-07T17:44:11 BRT" name="postAuthAPITest400Body" finished-at="2023-09-07T17:44:12 BRT" duration-ms="531" status="PASS">
+        <test-method signature="postAuthAPITest400Body()[pri:0, instance:sicrediApiTest.PostAuthTest@48f278eb]" started-at="2023-09-07T21:30:56 BRT" name="postAuthAPITest400Body" finished-at="2023-09-07T21:30:56 BRT" duration-ms="527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postAuthAPITest400Body -->
-        <test-method signature="postAuthAPITest400Headers()[pri:0, instance:sicrediApiTest.PostAuthTest@74751b3]" started-at="2023-09-07T17:44:12 BRT" name="postAuthAPITest400Headers" finished-at="2023-09-07T17:44:12 BRT" duration-ms="529" status="PASS">
+        <test-method signature="postAuthAPITest400Headers()[pri:0, instance:sicrediApiTest.PostAuthTest@48f278eb]" started-at="2023-09-07T21:30:56 BRT" name="postAuthAPITest400Headers" finished-at="2023-09-07T21:30:57 BRT" duration-ms="529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postAuthAPITest400Headers -->
-        <test-method signature="postAuthAPITest403()[pri:0, instance:sicrediApiTest.PostAuthTest@74751b3]" started-at="2023-09-07T17:44:12 BRT" name="postAuthAPITest403" finished-at="2023-09-07T17:44:13 BRT" duration-ms="526" status="PASS">
+        <test-method signature="postAuthAPITest400Password()[pri:0, instance:sicrediApiTest.PostAuthTest@48f278eb]" started-at="2023-09-07T21:30:57 BRT" name="postAuthAPITest400Password" finished-at="2023-09-07T21:30:57 BRT" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAuthAPITest400Password -->
+        <test-method signature="postAuthAPITest400Username()[pri:0, instance:sicrediApiTest.PostAuthTest@48f278eb]" started-at="2023-09-07T21:30:57 BRT" name="postAuthAPITest400Username" finished-at="2023-09-07T21:30:58 BRT" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAuthAPITest400Username -->
+        <test-method signature="postAuthAPITest403()[pri:0, instance:sicrediApiTest.PostAuthTest@48f278eb]" started-at="2023-09-07T21:30:58 BRT" name="postAuthAPITest403" finished-at="2023-09-07T21:30:58 BRT" duration-ms="529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postAuthAPITest403 -->
-        <test-method is-config="true" signature="finishingTest()[pri:0, instance:sicrediApiTest.PostAuthTest@74751b3]" started-at="2023-09-07T17:44:13 BRT" name="finishingTest" finished-at="2023-09-07T17:44:13 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="finishingTest()[pri:0, instance:sicrediApiTest.PostAuthTest@48f278eb]" started-at="2023-09-07T21:30:58 BRT" name="finishingTest" finished-at="2023-09-07T21:30:58 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishingTest -->
       </class> <!-- sicrediApiTest.PostAuthTest -->
       <class name="sicrediApiTest.GetProductsTest">
-        <test-method is-config="true" signature="baseTest()[pri:0, instance:sicrediApiTest.GetProductsTest@21e360a]" started-at="2023-09-07T17:44:07 BRT" name="baseTest" finished-at="2023-09-07T17:44:07 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="baseTest()[pri:0, instance:sicrediApiTest.GetProductsTest@3f6b0be5]" started-at="2023-09-07T21:30:51 BRT" name="baseTest" finished-at="2023-09-07T21:30:51 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseTest -->
-        <test-method is-config="true" signature="startingTest()[pri:0, instance:sicrediApiTest.GetProductsTest@21e360a]" started-at="2023-09-07T17:44:07 BRT" name="startingTest" finished-at="2023-09-07T17:44:07 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startingTest()[pri:0, instance:sicrediApiTest.GetProductsTest@3f6b0be5]" started-at="2023-09-07T21:30:51 BRT" name="startingTest" finished-at="2023-09-07T21:30:51 BRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startingTest -->
-        <test-method signature="getProducts()[pri:0, instance:sicrediApiTest.GetProductsTest@21e360a]" started-at="2023-09-07T17:44:07 BRT" name="getProducts" finished-at="2023-09-07T17:44:07 BRT" duration-ms="540" status="PASS">
+        <test-method signature="getProducts()[pri:0, instance:sicrediApiTest.GetProductsTest@3f6b0be5]" started-at="2023-09-07T21:30:51 BRT" name="getProducts" finished-at="2023-09-07T21:30:52 BRT" duration-ms="537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProducts -->
-        <test-method signature="getProducts404()[pri:0, instance:sicrediApiTest.GetProductsTest@21e360a]" started-at="2023-09-07T17:44:07 BRT" name="getProducts404" finished-at="2023-09-07T17:44:08 BRT" duration-ms="530" status="PASS">
+        <test-method signature="getProducts404()[pri:0, instance:sicrediApiTest.GetProductsTest@3f6b0be5]" started-at="2023-09-07T21:30:52 BRT" name="getProducts404" finished-at="2023-09-07T21:30:52 BRT" duration-ms="528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProducts404 -->
-        <test-method is-config="true" signature="finishingTest()[pri:0, instance:sicrediApiTest.GetProductsTest@21e360a]" started-at="2023-09-07T17:44:08 BRT" name="finishingTest" finished-at="2023-09-07T17:44:08 BRT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="finishingTest()[pri:0, instance:sicrediApiTest.GetProductsTest@3f6b0be5]" started-at="2023-09-07T21:30:52 BRT" name="finishingTest" finished-at="2023-09-07T21:30:52 BRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishingTest -->
       </class> <!-- sicrediApiTest.GetProductsTest -->
       <class name="sicrediApiTest.GetAuthTest">
-        <test-method is-config="true" signature="baseTest()[pri:0, instance:sicrediApiTest.GetAuthTest@7bd4937b]" started-at="2023-09-07T17:44:02 BRT" name="baseTest" finished-at="2023-09-07T17:44:02 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="baseTest()[pri:0, instance:sicrediApiTest.GetAuthTest@3b6ddd1d]" started-at="2023-09-07T21:30:46 BRT" name="baseTest" finished-at="2023-09-07T21:30:46 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseTest -->
-        <test-method is-config="true" signature="startingTest()[pri:0, instance:sicrediApiTest.GetAuthTest@7bd4937b]" started-at="2023-09-07T17:44:02 BRT" name="startingTest" finished-at="2023-09-07T17:44:02 BRT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startingTest()[pri:0, instance:sicrediApiTest.GetAuthTest@3b6ddd1d]" started-at="2023-09-07T21:30:46 BRT" name="startingTest" finished-at="2023-09-07T21:30:46 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startingTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:sicrediApiTest.GetAuthTest@7bd4937b]" started-at="2023-09-07T17:44:02 BRT" name="setup" finished-at="2023-09-07T17:44:03 BRT" duration-ms="1154" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:sicrediApiTest.GetAuthTest@3b6ddd1d]" started-at="2023-09-07T21:30:46 BRT" name="setup" finished-at="2023-09-07T21:30:48 BRT" duration-ms="1159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getAuth()[pri:0, instance:sicrediApiTest.GetAuthTest@7bd4937b]" started-at="2023-09-07T17:44:03 BRT" name="getAuth" finished-at="2023-09-07T17:44:04 BRT" duration-ms="541" status="PASS">
+        <test-method signature="getAuth()[pri:0, instance:sicrediApiTest.GetAuthTest@3b6ddd1d]" started-at="2023-09-07T21:30:48 BRT" name="getAuth" finished-at="2023-09-07T21:30:48 BRT" duration-ms="550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAuth -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:sicrediApiTest.GetAuthTest@7bd4937b]" started-at="2023-09-07T17:44:04 BRT" name="setup" finished-at="2023-09-07T17:44:04 BRT" duration-ms="549" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:sicrediApiTest.GetAuthTest@3b6ddd1d]" started-at="2023-09-07T21:30:48 BRT" name="setup" finished-at="2023-09-07T21:30:49 BRT" duration-ms="547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getAuth403()[pri:0, instance:sicrediApiTest.GetAuthTest@7bd4937b]" started-at="2023-09-07T17:44:04 BRT" name="getAuth403" finished-at="2023-09-07T17:44:05 BRT" duration-ms="534" status="PASS">
+        <test-method signature="getAuth403()[pri:0, instance:sicrediApiTest.GetAuthTest@3b6ddd1d]" started-at="2023-09-07T21:30:49 BRT" name="getAuth403" finished-at="2023-09-07T21:30:49 BRT" duration-ms="536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAuth403 -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:sicrediApiTest.GetAuthTest@7bd4937b]" started-at="2023-09-07T17:44:05 BRT" name="setup" finished-at="2023-09-07T17:44:05 BRT" duration-ms="542" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:sicrediApiTest.GetAuthTest@3b6ddd1d]" started-at="2023-09-07T21:30:49 BRT" name="setup" finished-at="2023-09-07T21:30:50 BRT" duration-ms="544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getAuth404()[pri:0, instance:sicrediApiTest.GetAuthTest@7bd4937b]" started-at="2023-09-07T17:44:05 BRT" name="getAuth404" finished-at="2023-09-07T17:44:06 BRT" duration-ms="531" status="PASS">
+        <test-method signature="getAuth404()[pri:0, instance:sicrediApiTest.GetAuthTest@3b6ddd1d]" started-at="2023-09-07T21:30:50 BRT" name="getAuth404" finished-at="2023-09-07T21:30:50 BRT" duration-ms="530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAuth404 -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:sicrediApiTest.GetAuthTest@7bd4937b]" started-at="2023-09-07T17:44:06 BRT" name="setup" finished-at="2023-09-07T17:44:06 BRT" duration-ms="543" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:sicrediApiTest.GetAuthTest@3b6ddd1d]" started-at="2023-09-07T21:30:50 BRT" name="setup" finished-at="2023-09-07T21:30:51 BRT" duration-ms="544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getAuth500()[pri:0, instance:sicrediApiTest.GetAuthTest@7bd4937b]" started-at="2023-09-07T17:44:06 BRT" name="getAuth500" finished-at="2023-09-07T17:44:07 BRT" duration-ms="531" status="PASS">
+        <test-method signature="getAuth500()[pri:0, instance:sicrediApiTest.GetAuthTest@3b6ddd1d]" started-at="2023-09-07T21:30:51 BRT" name="getAuth500" finished-at="2023-09-07T21:30:51 BRT" duration-ms="528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAuth500 -->
-        <test-method is-config="true" signature="finishingTest()[pri:0, instance:sicrediApiTest.GetAuthTest@7bd4937b]" started-at="2023-09-07T17:44:07 BRT" name="finishingTest" finished-at="2023-09-07T17:44:07 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="finishingTest()[pri:0, instance:sicrediApiTest.GetAuthTest@3b6ddd1d]" started-at="2023-09-07T21:30:51 BRT" name="finishingTest" finished-at="2023-09-07T21:30:51 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishingTest -->
       </class> <!-- sicrediApiTest.GetAuthTest -->
       <class name="sicrediApiTest.GetAPITest">
-        <test-method is-config="true" signature="baseTest()[pri:0, instance:sicrediApiTest.GetAPITest@2c35e847]" started-at="2023-09-07T17:43:59 BRT" name="baseTest" finished-at="2023-09-07T17:44:00 BRT" duration-ms="499" status="PASS">
+        <test-method is-config="true" signature="baseTest()[pri:0, instance:sicrediApiTest.GetAPITest@6283d8b8]" started-at="2023-09-07T21:30:44 BRT" name="baseTest" finished-at="2023-09-07T21:30:44 BRT" duration-ms="517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseTest -->
-        <test-method is-config="true" signature="startingTest()[pri:0, instance:sicrediApiTest.GetAPITest@2c35e847]" started-at="2023-09-07T17:44:00 BRT" name="startingTest" finished-at="2023-09-07T17:44:00 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startingTest()[pri:0, instance:sicrediApiTest.GetAPITest@6283d8b8]" started-at="2023-09-07T21:30:44 BRT" name="startingTest" finished-at="2023-09-07T21:30:44 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startingTest -->
-        <test-method signature="getTest()[pri:0, instance:sicrediApiTest.GetAPITest@2c35e847]" started-at="2023-09-07T17:44:00 BRT" name="getTest" finished-at="2023-09-07T17:44:01 BRT" duration-ms="1504" status="PASS">
+        <test-method signature="getTest()[pri:0, instance:sicrediApiTest.GetAPITest@6283d8b8]" started-at="2023-09-07T21:30:44 BRT" name="getTest" finished-at="2023-09-07T21:30:46 BRT" duration-ms="1609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTest -->
-        <test-method signature="getTest400()[pri:0, instance:sicrediApiTest.GetAPITest@2c35e847]" started-at="2023-09-07T17:44:01 BRT" name="getTest400" finished-at="2023-09-07T17:44:02 BRT" duration-ms="541" status="PASS">
+        <test-method signature="getTest400()[pri:0, instance:sicrediApiTest.GetAPITest@6283d8b8]" started-at="2023-09-07T21:30:46 BRT" name="getTest400" finished-at="2023-09-07T21:30:46 BRT" duration-ms="551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTest400 -->
-        <test-method is-config="true" signature="finishingTest()[pri:0, instance:sicrediApiTest.GetAPITest@2c35e847]" started-at="2023-09-07T17:44:02 BRT" name="finishingTest" finished-at="2023-09-07T17:44:02 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="finishingTest()[pri:0, instance:sicrediApiTest.GetAPITest@6283d8b8]" started-at="2023-09-07T21:30:46 BRT" name="finishingTest" finished-at="2023-09-07T21:30:46 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishingTest -->
       </class> <!-- sicrediApiTest.GetAPITest -->
       <class name="sicrediApiTest.GetUsersTest">
-        <test-method is-config="true" signature="baseTest()[pri:0, instance:sicrediApiTest.GetUsersTest@58d75e99]" started-at="2023-09-07T17:44:10 BRT" name="baseTest" finished-at="2023-09-07T17:44:10 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="baseTest()[pri:0, instance:sicrediApiTest.GetUsersTest@1da2cb77]" started-at="2023-09-07T21:30:54 BRT" name="baseTest" finished-at="2023-09-07T21:30:54 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseTest -->
-        <test-method is-config="true" signature="startingTest()[pri:0, instance:sicrediApiTest.GetUsersTest@58d75e99]" started-at="2023-09-07T17:44:10 BRT" name="startingTest" finished-at="2023-09-07T17:44:10 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startingTest()[pri:0, instance:sicrediApiTest.GetUsersTest@1da2cb77]" started-at="2023-09-07T21:30:54 BRT" name="startingTest" finished-at="2023-09-07T21:30:54 BRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startingTest -->
-        <test-method signature="getUsers()[pri:0, instance:sicrediApiTest.GetUsersTest@58d75e99]" started-at="2023-09-07T17:44:10 BRT" name="getUsers" finished-at="2023-09-07T17:44:10 BRT" duration-ms="542" status="PASS">
+        <test-method signature="getUsers()[pri:0, instance:sicrediApiTest.GetUsersTest@1da2cb77]" started-at="2023-09-07T21:30:54 BRT" name="getUsers" finished-at="2023-09-07T21:30:55 BRT" duration-ms="545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUsers -->
-        <test-method signature="getUsers404()[pri:0, instance:sicrediApiTest.GetUsersTest@58d75e99]" started-at="2023-09-07T17:44:10 BRT" name="getUsers404" finished-at="2023-09-07T17:44:11 BRT" duration-ms="543" status="PASS">
+        <test-method signature="getUsers404()[pri:0, instance:sicrediApiTest.GetUsersTest@1da2cb77]" started-at="2023-09-07T21:30:55 BRT" name="getUsers404" finished-at="2023-09-07T21:30:55 BRT" duration-ms="540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUsers404 -->
-        <test-method is-config="true" signature="finishingTest()[pri:0, instance:sicrediApiTest.GetUsersTest@58d75e99]" started-at="2023-09-07T17:44:11 BRT" name="finishingTest" finished-at="2023-09-07T17:44:11 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="finishingTest()[pri:0, instance:sicrediApiTest.GetUsersTest@1da2cb77]" started-at="2023-09-07T21:30:55 BRT" name="finishingTest" finished-at="2023-09-07T21:30:55 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishingTest -->

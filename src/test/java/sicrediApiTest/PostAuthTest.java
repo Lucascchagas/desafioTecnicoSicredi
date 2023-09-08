@@ -56,6 +56,40 @@ public class PostAuthTest extends BaseTest {
 	}
 
 	@Test
+	public void postAuthAPITest400Username() {
+
+		HeaderConfigs header = new HeaderConfigs();
+
+		Response response = (Response) RestAssured.given().when().headers(header.defaultHeaders())
+				.formParam("username", "kminchelleError").formParam("password", "0lelplR").when()
+				.post(APIPath.apiTest.POST_Login);
+
+		System.out.print(requestBody);
+
+		APIVerification.responseCodeValidation(response, 400);
+		APIVerification.responseTimeValidation(response);
+		APIVerification.responseKeyValidationFromJsonObject(response, "message");
+
+	}
+
+	@Test
+	public void postAuthAPITest400Password() {
+
+		HeaderConfigs header = new HeaderConfigs();
+
+		Response response = (Response) RestAssured.given().when().headers(header.defaultHeaders())
+				.formParam("username", "kminchelle").formParam("password", "0lelplRError").when()
+				.post(APIPath.apiTest.POST_Login);
+
+		System.out.print(requestBody);
+
+		APIVerification.responseCodeValidation(response, 400);
+		APIVerification.responseTimeValidation(response);
+		APIVerification.responseKeyValidationFromJsonObject(response, "message");
+
+	}
+
+	@Test
 	public void postAuthAPITest400Headers() {
 
 		Response response = (Response) RestAssured.given().when().body(requestBody).when()
